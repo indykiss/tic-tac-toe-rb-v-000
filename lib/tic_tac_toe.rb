@@ -151,6 +151,8 @@ def play(board)
      elsif won?(board)
         puts "Congratulations + #{winner} + !"
 
+end
+end
 
 #def play(board)
 #  until over?(board) == true || won?(board) != false
