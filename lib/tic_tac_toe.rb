@@ -152,6 +152,7 @@ def play(board)
   while !over?(board)
     turn(board)
   end 
+  
   if draw?(board)
     puts "Cat's Game!"
       
@@ -162,5 +163,4 @@ end
 end
 
 
-end 
 
