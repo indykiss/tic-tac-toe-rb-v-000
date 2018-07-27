@@ -150,20 +150,18 @@ end
       
  #     elsif won?(board)
   #      puts "Congratulations + #{winner} + !"
-        
-#  end
 
-#end 
 
 def play(board)
   until over?(board) == true || won?(board) != false
   puts 'turn'
     turn(board)
   end
+  
   if winner(board)
-    puts "Congratulations!"
+    puts "Congratulations + #{winner} + !"
   elsif draw?(board)
-    puts "Draw!"
+    puts "Cat's game!"
   else
     return nil
   end
