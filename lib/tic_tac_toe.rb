@@ -150,7 +150,7 @@ def play(board)
     return "Cat's game!"
       
      elsif won?(board)
-        return "Congratulations + #{winner} + !"
+        return "Congratulations + #{winner(board)} + !"
 
 end
 end
