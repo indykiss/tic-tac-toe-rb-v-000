@@ -155,6 +155,7 @@ end
 def play(board)
   until over?(board) == true || won?(board) != false
     turn(board)
+    play(board)
   end
   
   if winner(board)
