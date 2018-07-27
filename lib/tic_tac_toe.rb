@@ -141,15 +141,15 @@ def winner(board)
 end
 
 
-#def play(board) 
-#  if !over?
-#    turn(board)
-#  end 
-#  if draw?(board)
-#    puts "Cat's game!"
+def play(board) 
+  until !over?(board)
+    turn(board)
+  end 
+  if draw?(board)
+    puts "Cat's game!"
       
- #     elsif won?(board)
-  #      puts "Congratulations + #{winner} + !"
+     elsif won?(board)
+        puts "Congratulations + #{winner} + !"
 
 
 def play(board)
