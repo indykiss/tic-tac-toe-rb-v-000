@@ -145,9 +145,7 @@ def play(board)
   
   if !over?
     turn(board)
-    
   end 
-  
   if draw?(board)
     puts "Cat's game!"
       
