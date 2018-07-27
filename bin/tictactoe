@@ -10,4 +10,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 board
 
-play(boars)
+play(board)
