@@ -160,21 +160,3 @@ def play(board)
 
 end
 end
-
-#def play(board)
-#  until over?(board) == true || won?(board) != false
-#    turn(board)
- #   play(board)
-#  end
-  
- # if winner(board)
-  
-  #  puts "Congratulations + #{winner} + !"
-#  elsif draw?(board)
- #   puts "Cat's game!"
-  #else
-   # return nil
-  #end
-#end
-
-
