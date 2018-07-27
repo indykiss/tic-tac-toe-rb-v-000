@@ -63,7 +63,7 @@ def turn(board)
   converted_input = input_to_index (user_input)
 
     if valid_move?(board, converted_input) 
-    move(board, converted_input, token)
+    move(board, converted_input, current_player)
     display_board(board)
       else
         turn(board)
