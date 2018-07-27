@@ -49,6 +49,14 @@ def valid_move?(board, index)
 end
 end
 
+def current_player(board)
+  if turn_count(board) % 2 == 0
+    return "X"
+  else
+    return "O"
+  
+end
+
 
 def turn(board)
   puts "Please enter 1-9:"
